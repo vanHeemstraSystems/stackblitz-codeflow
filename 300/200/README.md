@@ -32,7 +32,24 @@ Follow these steps:
 7. Write a Commit Message.
 8. Click on "Commit & Push" to send the changes to GitHub.
 9. Finally, you can submit your pull request by clicking on the "Open New PR" button 🥳 **Note**: If this button does not show, use the button "Create Pull Request" instaed, which is in line with the left-horizontal diver called "SOURCE CONTROL". Hover over the divider to see the "Create Pull Request" button appear.
+10. Enter a Title for your Pull Request and provide a Description. Next, press "Create".
+11. The number of your Pull Request (e.g. #199) as well as the details will show when opening the menu item "GitHub Pull Request" in the left-hand side menu of the IDE.
 
+## 500 - Reviewing a PR with Codeflow IDE
+Let's look at [this suspicious PR](https://github.com/stackblitz/docs/pull/40).
 
+Follow these steps:
+
+1. [Open the link](https://github.com/stackblitz/docs/pull/40) in a new tab. In the GitHub URL of the repository, replace "github.com" with "pr.new".
+2. Codeflow IDE will spin up in the "PR Review mode". Open the Preview by clicking on the popup notification in the bottom right corner.
+3. Compare suggested changes with the original file. You can also see the edits rendered in the Preview panel if you navigate to the edited page - in this case, the "What is StackBlitz" page.
+4. You can add comments by clicking on the "+" icons, read other comments, or start a review.
+5. If you no longer want to see the changes in the "PR Review mode", close the relevant files.
+
+## 600 - Using the CodeflowApp bot
+
+MORE ...
+
+## 700 - Troubleshooting
 
 MORE ...
