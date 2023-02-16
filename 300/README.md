@@ -23,5 +23,3 @@ See [README.md](./500/README.md)
 ## 600 - Codeflow FAQ
 
 See [README.md](./600/README.md)
-
-WE ARE HERE ...
