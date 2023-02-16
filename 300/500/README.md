@@ -76,6 +76,10 @@ Follow [this integration guide](https://developer.stackblitz.com/codeflow/integr
 ## 400 - "Edit in Web Publisher" button
 To help your users easily find their way to Web Publisher on your site or repo, you can add a CTA (call-to-action) button on your website or in the README file.
 
+```
+[![Edit in Web Publisher](https://developer.stackblitz.com/img/edit_in_web_publisher_small.svg)](https://pr.new/github.com/vanHeemstraSystems/stackblitz-codeflow/edit/main/README.md)
+```
+
 **TIP**: You can either host the images on your servers or directly use our image URLs.
 
 ## 500 - Compatibility Mode
