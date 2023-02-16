@@ -24,7 +24,31 @@ To install the CodeflowApp bot on a repository, you will install it using GitHub
 
 ## 400 - Disabling CodeflowApp Bot
 
-MORE ...
+Once installed, the bot will be enabled by default on the repository and will be triggered whenever there is a new PR or an issue.
+
+To disable the bot:
+
+1. Create ```.stackblitz``` folder in the root directory of the project.
+2. Inside this folder, create a file called ```codeflow.json```, specifying which actions you want disabled:
+
+```
+// .stackblitz/codeflow.json
+
+{
+    "bot": {
+        "issues": {
+            "enabled": false
+        },
+        "pullRequests": {
+            "enabled": false
+        }
+    }
+}
+
+```
+.stackblitz/codeflow.json
+
+Alternatively, you can also pause or uninstall the bot [through the GitHub UI](https://docs.github.com/en/developers/apps/managing-github-apps/deleting-a-github-app).
 
 ## 500 - Enabling package overrides for issue reproductions
 
