@@ -52,8 +52,35 @@ Or,
 ### 3. Customize the link
 Now that you have the base link, you can further customize user experience with query parameters. 
 
+Now that you have the base link, you can further customize user experience with query parameters.
 
+**INFO**: To specify the first parameter, add ```?``` at the end of the base link. Connect the subsequent ones with ```&```.
 
+```initialPath```
+**Default behavior**: the Preview window renders the homepage as not always the file path or file name is the same as the rendered route.
+**Argument**: A route to be rendered.
+**Example**: ```initialPath=guides/user-guide/what-is-stackblitz```
 
+```view```
+**Default behavior**: Web Publisher features the Editor and the Preview.
+**Argument**: ```editor``` | ```preview``` | ```default```
+**Example**: ```view=editor```
 
-MORE ...
+### 4. Optional: Installing CodeflowApp bot
+**CodeflowApp** is a friendly bot, which provides a one-click link that spins up the whole environment for pull requests and issues. No more context-switching or branch-checkouts, just a new browser tab with a full IDE and a dev server running.
+
+**TIP**: Installing CodeflowApp ensures every commit to default branch and any pull request branches are pre-cloned for instant bootup times. Your project will run faster on Codeflow.
+
+Follow [this integration guide](https://developer.stackblitz.com/codeflow/integrating-codeflowapp-bot) to integrate CodeflowApp bot into your project.
+
+## 400 - "Edit in Web Publisher" button
+To help your users easily find their way to Web Publisher on your site or repo, you can add a CTA (call-to-action) button on your website or in the README file.
+
+**TIP**: You can either host the images on your servers or directly use our image URLs.
+
+## 500 - Compatibility Mode
+In some cases, you may notice the "Compatibility Mode on" banner.
+
+This mode is enabled when Web Publisher is viewed on Safari. [Safari currently doesn't support WebContainers](https://developer.stackblitz.com/platform/webcontainers/browser-support#safari), which is the technology at the basis of Web Publisher.
+
+That being said, you can still run Web Publisher and submit Pull Requests. In this mode, Web Publisher only renders a Markdown-to-HTML conversion. Your app itself it not being run, so there is no app-specific styling, and if you’re using some kind of components in your Markdown, they won’t be compiled.
