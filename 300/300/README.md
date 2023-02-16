@@ -17,6 +17,7 @@ To install the CodeflowApp bot on a repository, you will install it using GitHub
 2. Select the account or organization, as well as the repositories you want the bot to have access to.
 
 -- - If you choose “all in Organization”, CodeflowApp bot will be installed on all repositories in your organization.
+
 -- - Please don't worry - if you change your mind, you can change the bot access or completely disable it!
 
 **TIP**: Installing CodeflowApp ensures every commit to default branch and any pull request branches are pre-cloned for instant bootup times. Your project will run faster on Codeflow.
