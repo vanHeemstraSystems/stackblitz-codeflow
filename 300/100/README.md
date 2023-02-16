@@ -46,9 +46,41 @@ You will be redirected to [Codeflow IDE](https://developer.stackblitz.com/codefl
 
 ## 300 - "Open in Codeflow" button
 
-More ...
+To help your users quickly spin up the entire environment with your project, you can add a CTA (call-to-action) button on your website or in the README file with any of the above pr.new links.
 
+**TIP**: You can either host the images on your servers or directly use our image URLs.
+
+In order to display the button in a **Markdown file**, use the following code - remember to update the last URL with the project repository path:
+
+```
+[![Open in Codeflow](https://developer.stackblitz.com/img/open_in_codeflow_small.svg)](https:///pr.new/___GH_ACCOUNT__/___GH_REPOSITORY___)
+```
+
+Replace ```___GH_ACCOUNT__``` with the GitHub Account of the repository you like to link to, replace ```___GH_REPOSITORY___``` with the GitHub Account's Repository you like to link to. 
+
+For example: 
+
+```
+[![Open in Codeflow](https://developer.stackblitz.com/img/open_in_codeflow_small.svg)](https:///pr.new/vanHeemstraSystems/stackblitz-codeflow)
+```
+
+Or, in HTML:
+
+```
+<a href="https:///pr.new/___GH_ACCOUNT__/___GH_REPOSITORY___">
+  <img
+    alt="Open in Codeflow"
+    src="https://developer.stackblitz.com/img/open_in_codeflow_small.svg"
+  />
+</a>
+```
+
+If the user is logged in at GitHub and StackBlitz (in beta), Codeflow IDE will open up. No further configuration is needed.
 
 ## 400 - Opening a single file
 
-MORE ...
+To edit a single file with pr.new, visit it in the GitHub repository and click the "Edit" icon (a pencil). Now, in the browser's address tab, add ```pr.new``` to the beginning of the URL, for example:
+
+[https://pr.new/github.com/stackblitz/docs/edit/main/docs/guides/user-guide/what-is-stackblitz.md](https://pr.new/github.com/stackblitz/docs/edit/main/docs/guides/user-guide/what-is-stackblitz.md)
+
+You will be redirected to [Web Publisher](https://developer.stackblitz.com/codeflow/content-updates-with-web-publisher) for a more pleasant editing experience. If you prefer to work in a full environment, click on the "Open in IDE" button and you will be redirected to [Codeflow IDE](https://developer.stackblitz.com/codeflow/working-in-codeflow-ide).
