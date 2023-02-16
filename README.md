@@ -1,5 +1,5 @@
 
-[![Open in Codeflow](https://developer.stackblitz.com/img/open_in_codeflow.svg)](https:///pr.new/vanHeemstraSystems/stackblitz-codeflow)
+[![Open in Codeflow](https://developer.stackblitz.com/img/open_in_codeflow_small.svg)](https:///pr.new/vanHeemstraSystems/stackblitz-codeflow)
 
 stackblitz-codeflow
 # StackBlitz - CodeFlow
