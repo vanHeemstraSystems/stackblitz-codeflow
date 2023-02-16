@@ -7,6 +7,8 @@ stackblitz-codeflow
 
 Based on "StackBlitz - CodeFlow" at https://developer.stackblitz.com/codeflow/what-is-codeflow
 
+See also "StackBlitz" at https://github.com/vanHeemstraSystems/stackblitz
+
 ## 100 - Introduction
 
 See [README.md](./100/README.md)
