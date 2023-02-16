@@ -20,8 +20,8 @@ See [README.md](./400/README.md)
 
 See [README.md](./500/README.md)
 
-WE ARE HERE ...
-
 ## 600 - Codeflow FAQ
 
 See [README.md](./600/README.md)
+
+WE ARE HERE ...
