@@ -20,11 +20,33 @@ Or
 
 You will be redirected to [Codeflow IDE](https://developer.stackblitz.com/codeflow/working-in-codeflow-ide) where you can work to [submit a PR](https://developer.stackblitz.com/codeflow/working-in-codeflow-ide#submitting-a-pr) or just explore the codebase.
 
-### 200 - "Open in Codeflow" button
+### 200 - Opening a specific branch
+To inspect a branch with pr.new, visit it on GitHub and in the browser's address tab, add ```pr.new``` to the beginning of the URL, for example:
+
+[https://pr.new/github.com/stackblitz/docs/tree/BRANCH-NAME](https://pr.new/github.com/stackblitz/docs/tree/main)
+
+Or
+
+[https://pr.new/github.com/vanHeemstraSystems/stackblitz-codeflow/tree/main](https://pr.new/github.com/vanHeemstraSystems/stackblitz-codeflow/tree/main)
+
+You will be redirected to [Codeflow IDE](https://developer.stackblitz.com/codeflow/working-in-codeflow-ide) where you can explore the code, continue the work, or investigate the issue.
+
+### 300 - Reviewing a PR
+To review a PR with pr.new, visit the submitted pull request on GitHub and in the browser's address tab, add ```pr.new``` to the beginning of the URL, for example:
+
+[https://pr.new/github.com/stackblitz/docs/pull/33](https://pr.new/github.com/stackblitz/docs/pull/33)
+
+Or 
+
+[https://pr.new/github.com/vanHeemstraSystems/stackblitz-codeflow/pull/1](https://pr.new/github.com/vanHeemstraSystems/stackblitz-codeflow/pull/1)
+
+You will be redirected to [Codeflow IDE](https://developer.stackblitz.com/codeflow/working-in-codeflow-ide) in the "[PR review mode](https://developer.stackblitz.com/codeflow/working-in-codeflow-ide#reviewing-a-pr-with-codeflow-ide)" where you will see diffs. You can switch to the standard file view by choosing the "file" icon in the left vertical nav bar.
+
+## 300 - "Open in Codeflow" button
+
+More ...
 
 
-
-### 300 - Opening a single file
-
+## 400 - Opening a single file
 
 MORE ...
