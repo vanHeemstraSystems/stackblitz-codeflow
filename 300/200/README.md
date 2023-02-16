@@ -50,8 +50,39 @@ Follow these steps:
 
 **CodeflowApp** is a friendly bot, which provides a one-click link that spins up the whole environment for pull requests and issues. No more context-switching or branch-checkouts, just a new browser tab with a full IDE and a dev server running.
 
-To integrate the bot, please follow the instructions on [Integrating CodeflowApp bot]().
+To integrate the bot, please follow the instructions on [Integrating CodeflowApp bot](https://github.com/vanHeemstraSystems/stackblitz-codeflow/blob/main/300/300/README.md).
 
 ## 700 - Troubleshooting
 
-MORE ...
+### 100 - Out of memory error
+It may happen that having a few Codeflow IDE or StackBlitz projects open at the same time may cause your browser to run out of memory. In this case, you will see the following popup:
+
+```
+It seems that your browser is running out of memory. Have Codeflow IDE, Web Publisher or StackBlitz editor open in other tabs or windows? Close a few and refresh the page.
+```
+
+In your browser's console, you may see the following error:
+
+```
+RangeError: WebAssembly.instantiate(): Out of memory: wasm memory
+```
+
+When too much memory is allocated to browser processes, browsers will run out of memory. This can happen if you open too many StackBlitz projects at the same time. This includes our editor, Codeflow IDE, and Web Publisher - or if a page features too many StackBlitz embeds running at the same time.
+
+To free up memory, close other StackBlitz projects in other tabs or windows, and refresh the page.
+
+### 200 - Preview doesn't work
+If the Preview doesn't work, oftentimes browser configuration or browser incompatibility is the culprit. Please see [this page for troubleshooting](https://developer.stackblitz.com/platform/webcontainers/browser-support).
+
+### 300 - Preview stopped working / is not responding
+Please note that, depending on the framework, some changes may cause the dev server to stop running, which in turn causes the Preview to either not respond to new updates or show an error screen ("Unable to connect to local.webcontainer.io").
+
+Check in the terminal if the dev server is still running. If you want to restart it, click in the terminal window and:
+
+1. press ctrl+c to "kill" the server,
+2. press the "up arrow" button to bring up the start command,
+3. press enter to run that command,
+4. in the popup notification in the bottom right corner, choose to open the Preview.
+
+### 400 - Reopening the Preview panel
+If you close the Preview by accident, you can reopen it by selecting the icon of a plug entitled "Ports in use" from the left-side navigation bar. Note that you can open the Preview in a separate tab or as a split screen.
