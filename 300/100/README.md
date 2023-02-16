@@ -36,7 +36,7 @@ To review a PR with pr.new, visit the submitted pull request on GitHub and in th
 
 [https://pr.new/github.com/stackblitz/docs/pull/33](https://pr.new/github.com/stackblitz/docs/pull/33) 
 
-**NOTE**: At the time of this writing the Pull Request "```33```" was already pulled, hence why you won't see the Pull Request in the IDE. If you go to the left-hand menu and choose "Source Control", what you will see is a button "View Closed PR on GitHub" which when clicked will take you to the pulled request "fixes type #33". 
+**NOTE**: At the time of this writing the Pull Request "```33```" was already pulled, hence why you won't see the Pull Request in the IDE. If you go to the left-hand menu and choose "Source Control", what you will see is a button "View Closed PR on GitHub", which when clicked will take you to the pulled request "fixes type #33". 
 
 Or 
 
