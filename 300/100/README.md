@@ -12,11 +12,11 @@ Behind the scenes, this short URL will choose different tools in different scena
 
 To open a GitHub repository with **pr.new**, visit it on GitHub and in the browser's address tab, add ```pr.new``` to the beginning of the URL, for example:
 
-[pr.new/github.com/stackblitz/docs](pr.new/github.com/stackblitz/docs)
+[https://pr.new/github.com/stackblitz/docs](https://pr.new/github.com/stackblitz/docs)
 
 Or
 
-[pr.new/github.com/vanHeemstraSystems/stackblitz-codeflow](pr.new/github.com/vanHeemstraSystems/stackblitz-codeflow)
+[https://pr.new/github.com/vanHeemstraSystems/stackblitz-codeflow](https://pr.new/github.com/vanHeemstraSystems/stackblitz-codeflow)
 
 You will be redirected to [Codeflow IDE](https://developer.stackblitz.com/codeflow/working-in-codeflow-ide) where you can work to [submit a PR](https://developer.stackblitz.com/codeflow/working-in-codeflow-ide#submitting-a-pr) or just explore the codebase.
 
